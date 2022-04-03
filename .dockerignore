@@ -1,0 +1,8 @@
+.gitignore
+*.example
+*.env
+*/tests.py
+*/models.py
+LICENSE
+README.md
+db.sqlite3
