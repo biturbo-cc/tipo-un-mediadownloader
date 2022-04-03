@@ -14,11 +14,10 @@ services:
       - ALLOWED_HOSTS=127.0.0.1,localhost
       - SECRET_KEY=
       # [TikTok] Cookies
-      - tt_csrf_token=NptSUJ8IDQmhcaZh-Ce2HNvX
+      - tt_csrf_token=
       - _abck=
       - ak_bmsc=
       - bm_sz=
-      - __tea_cache_tokens_1988=
       - passport_csrf_token=
       - passport_csrf_token_default=
       - bm_mi=
@@ -38,12 +37,10 @@ services:
       - sessionid_ss=
       - sid_ucp_v1=
       - ssid_ucp_v1=
-      - msToken_2=
       # [TikTok] Headers
       - sec_ch_ua=
       - sec_ch_ua_mobile=
       - sec_fetch_dest=
       - sec_fetch_mode=
       - sec_fetch_site=
-      - upgrade_insecure_requests=
       - user_agent=

@@ -13,7 +13,6 @@ cookies = {
     '_abck': env.str('_abck'),
     'ak_bmsc': env.str('ak_bmsc'),
     'bm_sz': env.str('bm_sz'),
-    '__tea_cache_tokens_1988': env.str('__tea_cache_tokens_1988'),
     'passport_csrf_token': env.str('passport_csrf_token'),
     'passport_csrf_token_default': env.str('passport_csrf_token_default'),
     'bm_mi': env.str('bm_mi'),
@@ -33,7 +32,6 @@ cookies = {
     'sessionid_ss': env.str('sessionid_ss'),
     'sid_ucp_v1': env.str('sid_ucp_v1'),
     'ssid_ucp_v1': env.str('ssid_ucp_v1'),
-    'msToken': env.str('msToken_2'),
 }
 
 headers = {
@@ -42,7 +40,6 @@ headers = {
     'sec-fetch-dest': env.str('sec_fetch_dest'),
     'sec-fetch-mode': env.str('sec_fetch_mode'),
     'sec-fetch-site': env.str('sec_fetch_site'),
-    'upgrade-insecure-requests': env.str('upgrade_insecure_requests'),
     'user-agent': env.str('user_agent'),
 }
 
